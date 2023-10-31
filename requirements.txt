@@ -1,0 +1,4 @@
+pillow
+mcpi
+pyTelegramBotApi
+opencv-python
