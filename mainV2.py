@@ -35,8 +35,8 @@ def video(who, bot, message):
     cv2.destroyAllWindows()
 
 
-mc = Minecraft.create("26.110.228.166", 4711)
-bot = telebot.TeleBot("6971521187:AAGqLfWHD6D2qlLkxtsxoek0fjf4Jyi8Vmw")
+mc = Minecraft.create("ip of your server", 4711)
+bot = telebot.TeleBot("your bot id")
 @bot.message_handler(content_types=['photo', 'video'])
 @bot.message_handler(commands=['start'])
 def start_message(message):
